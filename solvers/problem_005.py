@@ -20,7 +20,7 @@ def prime_factors(number) :
                 factors[divisor] += 1
             else :
                 factors[divisor] = 1
-        number //= divisor
+            number //= divisor
     return factors
 
 total_factors = {}
